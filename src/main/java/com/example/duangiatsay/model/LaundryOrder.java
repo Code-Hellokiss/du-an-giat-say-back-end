@@ -36,10 +36,6 @@ public class LaundryOrder {
     @Column(name = "deleted_by_admin")
     private Boolean deletedByAdmin = false;
 
-
-
-
-
     private LocalDateTime pickupTime;
     private LocalDateTime deliveryTime;
 
